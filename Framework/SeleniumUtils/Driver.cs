@@ -25,6 +25,7 @@ namespace Framework.SeleniumUtils
             {
                 url = $"https://{url}";
             }
+            Current.Manage().Window.Maximize();
             Current.Manage().Cookies.DeleteAllCookies();
             Debug.WriteLine(url);
             Current.Navigate().GoToUrl(url);

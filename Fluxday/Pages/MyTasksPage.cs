@@ -6,7 +6,7 @@ namespace Fluxday.Pages
 {
     public class MyTasksPage : SideBarMenu
     {
-        public new readonly MyTasksPageMap Map;
+        public readonly MyTasksPageMap Map;
         public MyTasksPage() : base()
         {
             Map = new MyTasksPageMap();
